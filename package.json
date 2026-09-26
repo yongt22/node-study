@@ -1,0 +1,34 @@
+{
+  "name": "node-study",
+  "version": "1.0.0",
+  "description": "Node study",
+  "main": "backend.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./node_modules/nodemon/bin/nodemon.js backend.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yongt22/node-study.git"
+  },
+  "keywords": [],
+  "author": "Ken Yong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yongt22/node-study/issues"
+  },
+  "homepage": "https://github.com/yongt22/node-study#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.11.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.6",
+    "globals": "^17.12.0",
+    "prettier": "^3.9.9"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
