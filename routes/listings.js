@@ -11,6 +11,16 @@ const listings = [
       "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     ],
   },
+  {
+    title: "Spacious House with Garden",
+    address: "456 Elm St, Los Angeles, CA 90001",
+    price: 2500,
+    bedroom: 4,
+    note: "",
+    photo: [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    ],
+  },
 ];
 
 const router = express.Router();
